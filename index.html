@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Neo Nefos Movement: Gerakan seni, teknologi, dan perlawanan Global South." />
+  <title>Neo Nefos Movement</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="mainHeader" class="header">
+    <div class="logo-wrap">
+      <img src="assets/image/logo/logoneonefos.webp" alt="Neo Nefos Logo Besar" class="logo-besar" />
+      <img src="assets/image/logo/logoneonefos-mini.webp" alt="Neo Nefos Logo Kecil" class="logo-kecil" />
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="gerakan.html">Gerakan</a></li>
+        <li><a href="https://mandala.neonefos.com">Mandala</a></li>
+        <li><a href="https://forum.neonefos.com">Forum</a></li>
+        <li><a href="https://blog.neonefos.com">Blog</a></li>
+        <li><a href="tentangkami.html">Tentang</a></li>
+        <li><a href="bergabung.html" class="cta-merah">Bergabung</a></li>
+        <li><a href="donasi.html" class="cta-kuning">Donasi</a></li>
+        <li><a href="pusattransparansi.html" class="transparansi">Transparansi</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <video id="heroVideo" class="hero-video" autoplay muted playsinline>
+      <source src="assets/video/hero1.webm" type="video/webm" />
+      <source src="assets/video/hero1.mp4" type="video/mp4" />
+      <img src="assets/image/hero/fallback.webp" alt="Fallback Image" />
+    </video>
+    <div class="hero-overlay">
+      <h1 id="heroText">Neo Nefos Movement adalah gerakan seni, kebudayaan dan teknologi dari Global South.</h1>
+    </div>
+  </section>
+
+  <!-- TICKER SECTION -->
+  <div class="ticker-wrap">
+    <div class="ticker" id="ticker"></div>
+  </div>
+
+  <!-- SECTION 2: TENTANG KAMI -->
+  <section id="tentang-kami" class="tentang-kami">
+    <div class="tentang-container">
+      <div class="garis-atas"></div>
+      <p id="narasi-tentang"></p>
+      <div class="garis-bawah"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: GERAKAN KAMI -->
+  <section class="gerakan-kami">
+    <div class="gerakan-blok seni active">
+      <h2>SENI KAMI</h2>
+      <p>Seni kami adalah peluru dan pelangi, senjata perlawanan yang sekaligus menabur warna harapan. Ia lahir dari rahim ketidakadilan, tetapi tidak berhenti pada kemarahan.</p>
+      <a href="senikami.html" class="lihat-link">Lanjut Membaca</a>
+    </div>
+    <div class="gerakan-blok teknologi">
+      <h2>TEKNOLOGI KAMI</h2>
+      <p>Teknologi kami bukan sekadar alat, melainkan medan tempur kesadaran. Kami menolak algoritma sebagai takdir dan mengembangkan alat untuk membebaskan, bukan mengawasi.</p>
+      <a href="teknologikami.html" class="lihat-link">Lanjut Membaca</a>
+    </div>
+    <div class="gerakan-blok budaya">
+      <h2>BUDAYA KAMI</h2>
+      <p>Budaya kami adalah nyanyian keberanian. Ia tumbuh dari akar lokal dan melawan kekuasaan global, menciptakan ruang aman, merayakan keberagaman, dan menyulam solidaritas.</p>
+      <a href="budayakami.html" class="lihat-link">Lanjut Membaca</a>
+    </div>
+    <div class="slider-next" onclick="nextGerakan()">
+      <img src="assets/icons/panah-kanan.svg" alt="Lanjut" />
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
